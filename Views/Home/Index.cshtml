@@ -12,135 +12,126 @@
 }
 
 
-<div class="text-center">
-    <div id="tabsContainer">
-        <nav>
+<!-- Tab panes -->
+<div id="tabsContainer">
+    <nav>
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" href="#home" role="tab" data-toggle="tab">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#demo" role="tab" data-toggle="tab">Demo</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact" role="tab" data-toggle="tab">Contact</a>
+            </li>
+        </ul>
+
+        <button type="button" id="modalBtn" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdropSignUp">
+            Sign Up!
+        </button>
+        <!-- Button trigger modal -->
+    </nav>
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="home">
 
 
-            <ul class="nav nav-tabs" id="nav-tab" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link active" id="nav-home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home-tab" aria-selected="true">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="demo" data-toggle="tab" href="#demo" role="tab" aria-controls="demo-tab" aria-selected="false">Demo</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="contact" data-toggle="tab" href="#contact" role="tab" aria-controls="contact-tab" aria-selected="false">Contact Us</a>
-                </li>
 
-            </ul>
-            <button type="button" id="modalBtn" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdropSignUp">
-                Sign Up!
-            </button>
-            <!-- Button trigger modal -->
-        </nav>
-
-        <div class="tab-content" id="myTabContent">
-            <iv class="tab-pane fade show active" id="nav-home-tab" role="tabpanel" aria-labelledby="nav-home">
-
-                <div class="row no-gutters" id="row1">
+            <div class="row no-gutters" id="row1">
 
 
-                    <div class="col-6 col-md-4">
-                        <p id="col1Txt">
-                            We understand that today in the world of Pinterest and planning apps,
-                            no bride can sit back and let someone else do all the work.
-                            We Also understand that deciding on the perfect color scheme or
-                            centerpieces can be terribly overwhelming with so many
-                            options that never seem to end right at your finger tips.
-                            That's why we have developed the perfect planning tool to use alone or with a planner.
+                <div class="col-6 col-md-4">
+                    <p id="col1Txt">
+                        We understand that today in the world of Pinterest and planning apps,
+                        no bride can sit back and let someone else do all the work.
+                        We Also understand that deciding on the perfect color scheme or
+                        centerpieces can be terribly overwhelming with so many
+                        options that never seem to end right at your finger tips.
+                        That's why we have developed the perfect planning tool to use alone or with a planner.
 
-                        </p>
-                    </div>
-
-                    <div class="col-12 col-sm-6 col-md-8">
-                        <img id="col1Img" src="~/Images/Flowers.png" class="img-fluid" alt="Responsive image">
-                    </div>
+                    </p>
                 </div>
 
+                <div class="col-12 col-sm-6 col-md-8">
+                    <img id="col1Img" src="~/Images/Flowers.png" class="img-fluid" alt="Responsive image">
+                </div>
+            </div>
 
-                <div class="row no-gutters" id="row2">
 
-                    <div class="col-12 col-sm-6 col-md-8">
-                        <img id="col2Img" src="~/Images/Checklist.png" class="img-fluid" alt="Responsive image">
+            <div class="row no-gutters" id="row2">
 
-                    </div>
+                <div class="col-12 col-sm-6 col-md-8">
+                    <img id="col2Img" src="~/Images/Checklist.png" class="img-fluid" alt="Responsive image">
 
-                    <div class="col-6 col-md-4">
-                        <p id="col2Txt">
-
-                            You don't have to resist that temptation of scrolling flowers, and
-                            neither you nor your planner will have to work so hard to keep up that all that inspiration.
-                            We have all the tools from your favorite planning apps, and
-                            the best part is, we keep you connected directly to your planner
-                            so they can stay up to date with every idea you have.
-                            Click the Demo tab for a preview!
-
-                        </p>
-                    </div>
                 </div>
 
-                <div class="row no no-gutters" id="row3">
-                    <div class="col-6 col-md-4">
-                        <p id="col3Txt">
-                            You don't have to resist that temptation of scrolling flowers, and
-                            neither you nor your planner will have to work so hard to keep up that all that inspiration.
-                            We have all the tools from your favorite planning apps, and
-                            the best part is, we keep you connected directly to your planner
-                            so they can stay up to date with every idea you have.
-                            Click the Demo tab for a preview!
-                        </p>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-8">
-                        <img id="col3Img" src="~/Images/Cake.png" class="img-fluid" alt="Responsive image">
+                <div class="col-6 col-md-4">
+                    <p id="col2Txt">
 
-                    </div>
+                        You don't have to resist that temptation of scrolling flowers, and
+                        neither you nor your planner will have to work so hard to keep up that all that inspiration.
+                        We have all the tools from your favorite planning apps, and
+                        the best part is, we keep you connected directly to your planner
+                        so they can stay up to date with every idea you have.
+                        Click the Demo tab for a preview!
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="row no no-gutters" id="row3">
+                <div class="col-6 col-md-4">
+                    <p id="col3Txt">
+                        You don't have to resist that temptation of scrolling flowers, and
+                        neither you nor your planner will have to work so hard to keep up that all that inspiration.
+                        We have all the tools from your favorite planning apps, and
+                        the best part is, we keep you connected directly to your planner
+                        so they can stay up to date with every idea you have.
+                        Click the Demo tab for a preview!
+                    </p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-8">
+                    <img id="col3Img" src="~/Images/Cake.png" class="img-fluid" alt="Responsive image">
 
                 </div>
+
+            </div>
 
 
         </div>
 
 
-        <div class="tab-pane fade" id="nav-demo-tab" role="tabpanel" aria-labelledby="nav-demo">
-            <div class="container" id="demoCon">
-                <div class="row">
-                    <div class="col-3">
-                    </div>
-                    <div class="col-3">
 
-                    </div>
-                    <div class="col-3">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-3">
-                    </div>
-                    <div class="col-3">
-                    </div>
-                    <div class="col-3">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-3">
 
-                    </div>
-                    <div class="col-3">
 
-                    </div>
-                    <div class="col-3">
 
-                    </div>
-                </div>
-            </div>
+
+
+
+
+        <div role="tabpanel" class="tab-pane fade" id="demo">
+
+
+            DEMO TAB
+
+
+
+
+
         </div>
-        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-            <div id="ContactCon">
-                Contact Us Tab Content
-            </div>
+        <div role="tabpanel" class="tab-pane fade" id="contact">
+
+
+            Contact Tab
+
+
+
+
+
+
+
         </div>
     </div>
-</div>
 
 </div>
 <!-- Modal -->
