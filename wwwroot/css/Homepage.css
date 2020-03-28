@@ -7,38 +7,41 @@
 body {
     background-color: #e3e9ee;
 }
+
 p {
-   
+
 }
-.nav-tab {
-background-color: #bdd4fc;
-height: 60px;
-margin-bottom: 0px;
-box-shadow: 0px 0px 2px grey;
+.nav-tabs {
+    background-color: #bdd4fc;
+    height: 60px;
+    margin-bottom: 0px;
+    box-shadow: 0px 0px 2px grey;
 }
-.nav-tabs .nav-item {
-    margin-top: 16px;
-    background-color: #4b6174;
+
+
+    .nav-tabs .nav-item {
+        margin-top: 16px;
+        background-color: #4b6174;
+        color: #fafafa;
+        border-top-left-radius: .25rem;
+        border-top-right-radius: .25rem;
+        margin-left: 2px;
+        border-bottom: solid #fafafa 2px;
+        width: 130px;
+        margin-bottom: 1px;
+    }
+
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+        background-color: #fafafa !important;
+        color: #4b6174;
+    }
+
+.nav-tabs .nav-link {
     color: #fafafa;
-    border-top-left-radius: .25rem;
-    border-top-right-radius: .25rem;
-    margin-left: 2px;
-    border-bottom: solid #fafafa 2px;
-    width:130px;
-
 }
 
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    background-color: #fafafa !important;
-  
-    color: #4b6174;
-}
-.nav-tabs .nav-link{
-    color:#fafafa;
-}
-.nav-tabs .nav-item{
-    margin-bottom:1px;
-}
+
+
 #modalBtn {
     margin-left: 70%;
     margin-top: -89px;
@@ -77,8 +80,6 @@ box-shadow: 0px 0px 2px grey;
     }
 
     #modalBtn:hover, #modalBtn:focus {
-        
-        
         transform: translateY(-3px);
     }
 
@@ -120,25 +121,24 @@ box-shadow: 0px 0px 2px grey;
 }
 
 
- #tabsContainer {
-        background-color: #fafafa;
-        height: 100%;
-    }
-#myTabContent {
+#tabsContainer {
+    background-color: #fafafa;
+    height: 100%;
+}
+
+.tab-Content {
     background-color: #fafafa;
     margin-top: 0 auto;
     height: 100%;
 }
 
-#tabContent {
-}
+
 
 .col {
     margin-top: 15px;
 }
 
-tab-content {
-}
+
 
 #row1 {
     background-color: #bdd4fc;
@@ -169,13 +169,11 @@ tab-content {
 
 #col1Txt {
     padding: 15px;
-   
     background-color: #bdd4fc;
     height: 300px;
 }
 
 #col1Img {
-  
     max-width: 100%;
     margin-right: 5.7%;
     height: 300px;
@@ -187,7 +185,6 @@ tab-content {
     padding: 15px;
     height: 300px;
     color: #fafafa;
-    
 }
 
 #col2Img {
@@ -201,11 +198,9 @@ tab-content {
     background-color: #bdd4fc;
     padding: 15px;
     height: 300px;
-   
 }
 
 #col3Img {
-   
     max-width: 100%;
     margin-right: 5.7%;
     margin-left: 2px;
