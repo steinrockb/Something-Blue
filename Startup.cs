@@ -19,7 +19,7 @@ using SomethingBlue.Models;
 namespace SomethingBlue
 {
     public class Startup
-    {
+    { 
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
