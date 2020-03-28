@@ -24,10 +24,7 @@ namespace SomethingBlueWeb.Controllers
             _logger = logger;
             _accountManager = accountManager;
         }
-        public IActionResult IndexII()
-        {
-            return View();
-        }
+       
         public IActionResult Index()
         {
             return View();
